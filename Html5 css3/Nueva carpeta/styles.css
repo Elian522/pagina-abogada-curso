@@ -1,0 +1,73 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+   
+/*fin del reset css*/
+
+body{
+    font-size: 62.5%;
+}
+
+h1{
+   font: normal 2.4em verdana, geneva, sans-serif; 
+   background: -webkit-linear-gradient(top, blue,rgb(167, 197, 253));
+   width: 45%;
+   border-radius: 10px;
+   margin: 15px auto;
+   text-align: center;
+   padding: 15px;
+   color:white ;
+   box-shadow: rgba(71, 71, 197, 0.822) 5px 5px 10px;
+   text-shadow: white 2px 2px 3px;
+}
+h2{
+    font:bold 1.7em Verdana, Geneva, Sans-serif;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    color: black;
+}
+section{
+    width: 91%;
+    border-top: 1px dashed rgba(0, 0, 0, 0.267);
+    margin: 15px auto;
+}
+figure{
+    float: left;
+}
+figure img{
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.384);
+    border-radius: 20px;
+    -webkit-transition: -webkit-transform 0.4s ease-in-out 0.1s;
+    box-shadow: rgb(121, 113, 113) 5px 5px 10px;
+}
+figure img:hover{
+    -webkit-transform: scale(1.2);
+}
+
+figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 7px;
+}
+
+footer{
+    clear:both;
+    padding-top: 100px;
+
+}
+footer p{
+    font: 1.6em Georgia, "Times New Roman", Times, serif;
+    color: rgb(100, 92, 92);
+    margin: 10px 8px;
+}
